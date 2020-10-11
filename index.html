@@ -14,16 +14,21 @@
 
 <body>
     <div class="container">
-        <h2 class="text-center">Lista zadań</h2>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4">Lista zadań</h1>
+                <p class="lead">Oto lista zadań do wykonania. Jeśli chcesz dodać nowe wciśnij button "Dodaj do listy".</p>
+            </div>
+        </div>
 
         <div class="form-group">
             <label for="itemInput">Dodaj nowe zadanie do listy</label>
-            <input type="text" class="form-control" name="" id="itemInput">
+            <input type="text" class="form-control" name="" id="itemInput" placeholder="wpisz nazwę zadania">
         </div>
-        <button id="addButton" class="btn btn-primary">Dodaj do listy</button>
+        <button id="addButton" class="btn btn-success">Dodaj zadanie</button>
         <button id="clearButton" class="btn btn-danger">Wyczyść listę zadań</button>
         <h3>Lista moich zadań</h3>
-        <ul id="lista_to_do"></ul>
+        <ul id="todoList"></ul>
 
     </div>
     <!-- script -->

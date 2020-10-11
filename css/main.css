@@ -1,8 +1,8 @@
-#lista_to_do label {
+#todoList label {
     width: 80%;
 }
 
-#lista_to_do li {
+#todoList li {
     list-style-type: none;
 }
 
@@ -13,6 +13,6 @@
     text-decoration: line-through;
 }
 
-#lista_to_do .btn {
+#todoList .btn {
     margin-left: 10px;
 }
